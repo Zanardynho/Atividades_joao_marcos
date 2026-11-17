@@ -3,7 +3,7 @@
 **Disciplina:** Programação para Dispositivos Móveis II  
 **Professor:** João Lucas  
 **Turma:** 5º semestre  
-**Aluno:** Paulo Henrique
+**Aluno:** Paulo Zanardi
 
 ## 1. Objetivo
 
@@ -14,40 +14,7 @@ O projeto principal da atividade utiliza **React Native com Expo**. Também foi 
 ## 2. Arquivos
 
 - `app/index.tsx`: implementação da calculadora em React Native com Expo.
-- `index.html`: versão equivalente para executar no navegador.
 - `README.md`: explicação da atividade e instruções.
-
-## 3. Como executar no navegador
-
-1. Abra o arquivo `index.html` em um navegador, como Google Chrome.
-2. Digite dois números nos campos.
-3. Clique em Somar, Subtrair, Multiplicar ou Dividir.
-4. O resultado ou a mensagem de validação aparecerá na própria página.
-
-Para executar online, sem instalar nada:
-1. Acesse https://codepen.io/pen/
-2. Abra o arquivo `index.html` deste projeto.
-3. Copie todo o conteúdo para o painel **HTML** do CodePen.
-4. O resultado será exibido automaticamente na prévia.
-
-## 4. Como executar com Expo (projeto solicitado na atividade)
-
-Crie um projeto Expo com TypeScript:
-
-```bash
-npx create-expo-app@latest MinhaCalculadora
-cd MinhaCalculadora
-```
-
-Substitua o conteúdo do arquivo `app/index.tsx` pelo código fornecido neste projeto. Depois, execute:
-
-```bash
-npx expo start
-```
-
-Abra no emulador Android ou escaneie o QR Code com o aplicativo Expo Go.
-
-## 5. Resolução dos TODOs
 
 ### TODO 1 — Campos vazios
 
@@ -111,11 +78,5 @@ Também deve ser testado o preenchimento com conteúdo inválido, para conferir 
 
 ## 9. Captura de tela e entrega
 
-Para a captura de tela, abra a versão web ou o aplicativo Expo, informe `8` e `2`, pressione **Somar +** e deixe o resultado visível.
-
-A atividade solicita o projeto desenvolvido, uma captura de tela mostrando a calculadora funcionando e a identificação do aluno e da turma.
-
 **Aluno:** Paulo Henrique  
 **Turma:** 5º semestre
-
-> Observação: a versão HTML serve para demonstração e captura pelo navegador. Como a atividade pede React Native com Expo, utilize também o arquivo `app/index.tsx` e execute o projeto Expo para a entrega correspondente à tecnologia solicitada.
